@@ -6,8 +6,6 @@ Version: 1.0
 Author: Steve Heffernan
 Author URI: http://steveheffernan.com/
 Tags: white, two-columns
-License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 */
 
@@ -15,7 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
 */
 
-/* WordPress Required Styles */
+
+
+/***************************** WordPress Required Styles */
 .aligncenter {
 	display: block;
 	margin-left: auto;
@@ -63,3 +63,159 @@ HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
 .sticky h2 {
 	padding-top: 10px;
 }
+
+.clearfix {
+	clear:both;width:100%;
+}
+
+/**************************************** defaults */
+h1 {
+	display: block;
+}
+p {
+	display: block;
+}
+a { outline: none;text-decoration:none; }
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+/************************************* wrappers */
+.header_wrap, .project_wrap, .content_wrap, .footer_wrap {
+	
+}
+
+/************************************ header / footer theme styles */
+.header {
+	padding: 30px 0px 30px 5px;
+	position: relative;
+}
+.header, .project, .content, .footer {
+	width: 960px;
+	margin: 0px auto;
+	font-size: .86em;
+}
+.header_wrap {
+	color: #555;
+}
+.logoarea {
+	float: left;
+}
+h1.logo, h1.logo a, h2.posttitle, h2.posttitle a, .info h2 a, .info h2, h4.title {
+	color: #333;
+}
+.post h2.posttitle, h4.title, h1.logo, .module h4, h3.pagetitle {
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1.logo {
+	width: auto;
+	font-weight: bold;
+	letter-spacing: -1px;
+	position: relative;
+	z-index: 100;
+}
+h1.logo a {
+	font-size: 2.68em;
+}
+a, p.description {
+	color: #4A9DAA;
+}
+p.description {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+/*********************************** header menu */
+ul.main_nav {
+	top: 25px;
+	width: 650px;
+	text-align: right;
+	position: absolute;
+	right: 0px;
+	text-transform: uppercase;
+	float: right;
+}
+ul.main_nav li.omega-first-li-item {
+	border: none;
+}
+ul.main_nav li {
+	border-left: 1px solid #CCC;
+	list-style: none;
+	padding: 0px 15px;
+	position: relative;
+}
+ul.main_nav li a {
+	padding-bottom: 3px;
+}
+ul.main_nav li.current_page_item a, #home li.omega-first-li-item a, ul.main_nav a:hover {
+	border-bottom: 1px dotted #333;
+}
+
+
+/*********************************** main content area */
+.eighty {
+	width:79%;
+}
+.left {
+	position:relative;
+	float:left;
+}
+.twenty {
+	width:19%;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+   }
+
+/* This is the IE workaround*/
+* body { text-align: center; }
+* .container { text-align: left; }
+
+ul.dropdown ul {margin-left: -1px;}
+
+.post {
+border-top: 1px solid #E0E0E0;
+color: #6E6E6E;
+clear: both;
+margin: 20px 5px 20px 0px;
+}
+.post header {
+padding-top:20px;
+clear: both;
+width:100%;
+margin-bottom: 20px;
+}
+.post h2.posttitle, h4.title {
+font-size: 1.25em;
+font-weight: bold;
+width: auto;
+color: #333;
+}
+.post p {
+clear: both;
+padding-top: 10px;
+line-height: 19px;
+display:block;
+clear:both;
+width:100%;
+}
+.post footer {	
+margin-bottom: 20px;
+}
+
+
+
+
+

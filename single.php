@@ -11,7 +11,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main">
+<div class="main eighty left" role="main">
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

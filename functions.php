@@ -53,6 +53,7 @@ defined("OMEGA_VERSION") or define("OMEGA_VERSION", '1.0.0');
 require_once dirname(__file__).DS."lib".DS."bootstrap.php";
 require_once dirname(__file__).DS."lib".DS."omega.php";
 require_once dirname(__file__).DS."lib".DS."template-codes.php";
+require_once dirname(__file__).DS."lib".DS."widgets.php";
 
 /**
  * Initialize the Framework

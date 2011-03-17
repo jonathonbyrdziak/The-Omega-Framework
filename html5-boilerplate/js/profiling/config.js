@@ -19,10 +19,10 @@ var PROFILE = {
     
     // if true is passed into init(), F9 will bring up the profiler
     if (bool){
-      $(document).keyup(function(e){
+      jQuery(document).keyup(function(e){
         if (e.keyCode === 120){ 
           PROFILE.show(); 
-          $(document).unbind('keyup',arguments.callee); 
+          jQuery(document).unbind('keyup',arguments.callee); 
         }
       })
     }

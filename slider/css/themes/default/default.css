@@ -1,0 +1,33 @@
+/**
+ *
+ */
+
+#omega-slider .omega-padded {
+	padding:30px;
+	line-height:15px;
+}
+#omega-slider {
+	border: 1px solid #DADADA;
+	background: #E0E0E0;
+	margin:20px 0;
+}
+#omega-inside {
+	
+}
+#omega-left span {
+	padding-left:10px;
+}
+#omega-right span {
+	margin-left:-10px;
+}
+#omega-left span {
+	font-weight:bold;
+	font-size:50px;
+}
+#omega-right span {
+	font-weight:bold;
+	font-size:50px;
+}
+#omega-inside .slide {
+	
+}

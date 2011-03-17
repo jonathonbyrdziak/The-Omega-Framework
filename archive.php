@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main">
+<div class="main eighty left" role="main">
 
   <?php if (have_posts()) : ?>
 
@@ -79,7 +79,5 @@ get_header(); ?>
   ?>
 
 </div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

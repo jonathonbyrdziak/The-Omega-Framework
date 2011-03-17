@@ -13,7 +13,7 @@
 
 <?php get_header(); ?>
 
-<div id="main">
+<div class="main eighty left">
 
   <?php get_search_form(); ?>
 
@@ -32,7 +32,5 @@
   </section>
 
 </div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

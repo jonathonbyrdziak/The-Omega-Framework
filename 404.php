@@ -12,15 +12,17 @@
 
 get_header(); ?>
 
-  <div id="main" role="main">
-
+  <div class="main eighty left" role="main">
+	
+  <section class="four04-search">
+    <?php get_search_form(); ?>
+  </section>
+	
     <details>
-      <summary><h1>Not found</h1></summary>
+      <summary><h1>404</h1> Page Not Found.</summary>
       <p><span frown>:(</span></p>
     </details>
 
   </div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

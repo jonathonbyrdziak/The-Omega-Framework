@@ -11,7 +11,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main">
+<div class="main eighty left" role="main">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <article class="post" id="post-<?php the_ID(); ?>">
     <header>
@@ -29,7 +29,5 @@ get_header(); ?>
   <?php comments_template(); ?>
 
 </div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
